@@ -8,7 +8,7 @@
   },
   "test_vocab": {
     "length": 7163,
-    "tag2id_length": 8,
+    "tag2id_length": 7,
     "Spongebob": 1
   },
   "test_count_oov": {
@@ -22,6 +22,12 @@
       32
     ]
   },
-  "test_NERNet": "KeyError('F1')",
-  "test_glove": "KeyError('F1')"
+  "test_NERNet": {
+    "f1": 0.935168460252157,
+    "f1_wo_o": 0.8026039439543512
+  },
+  "test_glove": {
+    "f1": 0.9166484817326239,
+    "f1_wo_o": 0.7475025140279394
+  }
 }
